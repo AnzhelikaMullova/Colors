@@ -1,0 +1,148 @@
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 70px 0px;
+    padding: 5px;
+
+
+}
+
+.header__button {
+    width: 115px;
+    height: 45px;
+    background-color: #5222D0;
+    border: #5222D0;
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+.button {
+    position: relative;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    bottom: 14px;
+    right: 5px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+
+    background-image: url('../assets/image/ico.png');
+
+
+}
+
+.main-banner {
+
+    display: flex;
+    margin: 0px 70px 0px;
+    padding: 10px;
+
+}
+
+
+
+.main-banner__h1 {
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.main-banner__p {
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+
+
+    color: #000000;
+}
+
+.main-banner__button {
+    width: 250px;
+    height: 84px;
+    margin-top: 35px;
+    background-color: #5222D0;
+    border: #5222D0;
+    border-radius: 40px;
+
+}
+
+.main-banner__button a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.main-banner__description {
+    padding: 25px;
+
+}
+
+.botton-main {
+    position: relative;
+}
+
+.botton-main::after {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+    z-index: 1;
+    width: 43px;
+    height: 28px;
+
+    background-image: url('../assets/image/ico1.png');
+
+}
+
+.footer {
+    margin: 20px 70px 0px;
+    padding: 5px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 10vh;
+    width: 50vw;
+
+}
+
+.menu__list-item {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+
+
+
+    color: #5222D0;
+
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

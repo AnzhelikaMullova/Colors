@@ -42,8 +42,9 @@
 .main-banner {
 
     display: flex;
-    margin: 0px 70px 0px;
+    margin: 0px 170px 0px;
     padding: 10px;
+    width: 40%;
 
 }
 
@@ -53,8 +54,8 @@
     padding-top: 70px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 900;
-    font-size: 60px;
+    font-weight: 900px;
+    font-size: 2em;
     line-height: 120%;
     color: #000000;
 }
@@ -144,5 +145,161 @@
 
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+    
+@media screen and (max-width: 767px)
+{
+    .header {
+
+        flex-direction: column;
+        margin-left:auto; 
+        margin-right: auto;
+        
+        
+     
+     
+     }
+     .footer {
+   display: none;
+    }
+    .main-banner {
+
+       flex-direction: column;
+       margin-left:auto; 
+       margin-right: auto;
+       width: 70%;
+    
+    }
+    .main-banner_img img {
+       max-width: 350px;
+       max-height: 400px;
+    
+    }
+    
+
+
+}
+.main-viar {
+    height: 90vh;
+
+}
+
+.main-viar-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: repeat(2, 450px);
+    gap: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.main-viar__h2 {
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+    margin-left: 200px;
+}
+
+.viar-helmet__h3,
+.viar-computer__h3,
+.working-hours__h3,
+.viar-game__h3,
+.viar-sale__h3,
+.viar-news__h3 {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+.viar-helmet__p,
+.viar-computer__p,
+.working-hours__p,
+.viar-game__p,
+.viar-sale__p,
+.viar-news__p {
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+
+
+    color: #000000;
+}
+
+.footer-viar__menu {
+    margin-top: 250px;
+
+}
+
+.viar-news {
+    background-color: #EC615B;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 30%;
+
+}
+
+.viar-news__button {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 135px;
+    height: 38px;
+    background-color: #5222D0;
+    border: #5222D0;
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+
+}
+
+.viar-news__input,
+.viar-news__h3 {
+    margin-left: 10px;
+}
+
+.viar-news__input {
+    width: 90%;
+    height: 15%;
+}
+
+@media screen and (max-width: 767px)
+{
+    .header {
+
+        flex-direction: column;
+        margin-left:auto; 
+        margin-right: auto;
+        
+        
+     
+     
+     }
+     .footer {
+   display: none;
+    }
+    
+    
+
 
 }
